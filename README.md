@@ -430,14 +430,3 @@ This project now includes:
 - `npm run deploy:check`
 - Supabase client, server and admin client helpers
 
-Deployment steps:
-
-1. Push this folder to GitHub.
-2. Import the repository into Vercel.
-3. Set Framework Preset to Next.js.
-4. Set Build Command to `npm run deploy:check`.
-5. Set Install Command to `npm install --no-audit --no-fund`.
-6. Add the Supabase environment variables in Vercel.
-7. Deploy.
-
-Important: the database password was shared in chat. Rotate it in Supabase before production use. Treat the current password as exposed.

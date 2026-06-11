@@ -1,7 +1,7 @@
 {
   "framework": "nextjs",
-  "buildCommand": "npm run deploy:check",
   "installCommand": "npm install --no-audit --no-fund",
+  "buildCommand": "npm run deploy:check",
   "outputDirectory": ".next",
   "regions": ["iad1"],
   "env": {
